@@ -18,7 +18,7 @@ However, this leaves two issues unaddressed for NLP systems. Firstly, they are l
 
 ## Data
 
-The Tatoeba dataset mentioned above was launched in 2006 for language learners, and thus incorporates our desired colloquial flavour of usage. In this exploration, we begin with the section of the project that was provided sentence-alignment through OPUS (Tiedemann, 2012), which expands the corpus size to 7.8 million sentences in 338 languages. In this exploration, we will be downloading two tables on Tatoeba's public interface. Unlike Scherrer (2020)’s exploration of the same dataset through multilingual graph structures, we will rely on a MapReduce framework. 
+The Tatoeba dataset mentioned above was launched in 2006 for language learners, and thus incorporates our desired colloquial flavour of usage. In this exploration, we begin with the section of the project that was provided sentence-alignment through OPUS (Tiedemann, 2012), which expands the corpus size to 7.8 million sentences in 338 languages. In this exploration, we will be downloading two tables on [Tatoeba's public interface].(https://tatoeba.org/eng/downloads) Unlike Scherrer (2020)’s exploration of the same dataset through multilingual graph structures, we will rely on a MapReduce framework. 
 
 *Links Table*
 Provides the IDs of sentences that are considered to be translations. The relationship is always symmetric. If Sentence A is a translation of Sentence B, then vice-versa is true too. 
